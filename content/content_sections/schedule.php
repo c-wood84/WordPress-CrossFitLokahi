@@ -23,9 +23,9 @@
                         <h5>Please note that unexpected class changes/cancellations will be posted on our <a href="https://www.facebook.com/crossfitlokahi">Facebook page</a></h5>
                     </div>
                 </div>
-                <div class="calendar-image">
+                <!-- <div class="calendar-image">
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/lokahi-class-calendar-30189.png" />
-                </div>
+                </div> -->
 
                 <div class="timetable calendar-live">
                     <div class="container">

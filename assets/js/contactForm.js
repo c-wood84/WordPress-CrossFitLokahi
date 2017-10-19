@@ -7,15 +7,15 @@ $(function() {
     $('form').submit(function(event) {
 
         var formData = {
-            fullName: $("input#fullName").val(),
-            subject: $("input#subject").val(),
+            name: $("input#name").val(),
             email: $("input#email").val(),
+            subject: $("input#subject").val(),
             message: $("textarea#message").val()
         };
 
         $.ajax({
                 type: 'POST', // define the type of HTTP verb we want to use (POST for our form)
-                url: 'php/contactForm.php', // the url where we want to POST
+                url: 'http://www.crossfitlokahi.com/wp-content/themes/crossfitlokahi/assets/php/contactForm.php', // the url where we want to POST
                 data: formData, // our data object
                 dataType: 'json',
                 encode: true // what type of data do we expect back from the server
@@ -24,19 +24,19 @@ $(function() {
             .done(function(data) {
                 if (!data.success) {
 
-                  if(data.errors.fullName) {
-                    $('#fullName-input').addClass('has-error');
-                    $('#fullName-input').append('<span class="help-block">' + data.errors.fullName + '</span>');
-                  }
-
-                  if(data.errors.subject) {
-                    $('#subject-input').addClass('has-error');
-                    $('#subject-input').append('<span class="help-block">' + data.errors.subject + '</span>');
+                  if(data.errors.name) {
+                    $('#name-input').addClass('has-error');
+                    $('#name-input').append('<span class="help-block">' + data.errors.name + '</span>');
                   }
 
                   if(data.errors.email) {
                     $('#email-input').addClass('has-error');
                     $('#email-input').append('<span class="help-block">' + data.errors.email + '</span>');
+                  }
+
+                  if(data.errors.subject) {
+                    $('#subject-input').addClass('has-error');
+                    $('#subject-input').append('<span class="help-block">' + data.errors.subject + '</span>');
                   }
 
                   if(data.errors.message) {

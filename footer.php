@@ -40,6 +40,7 @@ $footer = get_field('footer_copy');
 </div>
 
 	<script src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/modernizr.custom.63321.js" type="text/javascript"></script>
+    
     <script src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/jquery-1.11.1.min.js" type="text/javascript"></script>
     <script src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/jquery-ui.min.js" type="text/javascript"></script>
     <script src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/waypoints.js" type="text/javascript"></script>
@@ -55,7 +56,6 @@ $footer = get_field('footer_copy');
     <script src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/plugins.js" type="text/javascript"></script>
     <script src="<?php bloginfo('stylesheet_directory'); ?>/assets/color-box/color-js.js" type="text/javascript"></script>
     <script src="<?php bloginfo('stylesheet_directory'); ?>/assets/color-box/farbtastic/farbtastic.js" type="text/javascript"></script>
-
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {

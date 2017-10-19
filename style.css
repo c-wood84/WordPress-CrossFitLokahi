@@ -1781,7 +1781,7 @@ a {
 .slider .slide-text h2, .slider .slide-text h1 {
     color: #fff;
     line-height: 1.2em;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 400;
     display: block;
     margin: 0 auto 30px;
@@ -6204,9 +6204,7 @@ ul li.active>.d-text-c-h, .d-text-c.active, .d-text-c-h.active, .d-text-c-h:hove
         padding: 40px 0;
     }
 
-    .calendar-live {
-        display: none;
-    }
+    
 
     .info-section {
         display: none;

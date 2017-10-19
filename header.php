@@ -23,7 +23,8 @@
                                 Style CSS + Google Fonts
     ======================================================================= -->
     <script src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/jquery-1.11.1.min.js" type="text/javascript"></script>
-    
+    <script src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.min.js" type="text/javascript"></script>
+
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
